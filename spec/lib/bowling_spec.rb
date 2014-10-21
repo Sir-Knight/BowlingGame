@@ -14,7 +14,7 @@ describe Bowling, "#score" do
 	it "should score 300 for all strike" do
 	    expect(bowling.score(12.times.map { 10 })).to eq(300)    
 	end
-
+#Test2
 	it "should score 0 for a gutter game" do
 	    expect(bowling.score(12.times.map { 0 })).to eq(0)
 	end
